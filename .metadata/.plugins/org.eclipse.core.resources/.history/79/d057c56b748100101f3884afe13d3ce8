@@ -23,7 +23,7 @@ public class PromotionExample {
 		floatValue = 100.5f;
 		double doubleValue = longValue;
 		System.out.println("doubleValue:" + doubleValue);
-		//1234
+		//kshi
 		
 		
 		// TODO Auto-generated method stub
