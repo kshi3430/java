@@ -1,0 +1,18 @@
+package sec02.exam08;
+
+public class BreakExample {
+
+	public static void main(String[] args) throws Exception {
+		while(true) {
+			int num = (int)(Math.random()*6) +1;
+			System.out.println(num);
+			if(num==3) {
+				break;
+			}
+		}
+		System.out.println("프로그램 종료.");
+		// TODO Auto-generated method stub
+
+	}
+
+}
