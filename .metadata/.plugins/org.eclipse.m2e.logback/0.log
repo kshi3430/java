@@ -127,3 +127,78 @@ java.io.IOException: Creating directories for /Users/kshi3430/.config/jgit faile
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-09-15 13:43:00,401 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-09-15 13:43:04,887 [JGit-FileStoreAttributeWriter-1] ERROR o.e.j.i.storage.file.LockFile - Creating lock file /Users/kshi3430/.config/jgit/config.lock failed
+java.io.IOException: Creating directories for /Users/kshi3430/.config/jgit failed
+	at org.eclipse.jgit.util.FileUtils.mkdirs(FileUtils.java:421)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFile(LockFile.java:172)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFileWithRetry(LockFile.java:165)
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:146)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:201)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:761)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$4(FS.java:433)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-09-15 13:43:04,890 [JGit-FileStoreAttributeWriter-1] ERROR org.eclipse.jgit.util.FS - Cannot save config file 'FileBasedConfig[/Users/kshi3430/.config/jgit/config]'
+java.io.IOException: Creating directories for /Users/kshi3430/.config/jgit failed
+	at org.eclipse.jgit.util.FileUtils.mkdirs(FileUtils.java:421)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFile(LockFile.java:172)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFileWithRetry(LockFile.java:165)
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:146)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:201)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:761)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$4(FS.java:433)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-09-15 14:38:48,761 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-09-15 14:38:52,609 [JGit-FileStoreAttributeWriter-1] ERROR o.e.j.i.storage.file.LockFile - Creating lock file /Users/kshi3430/.config/jgit/config.lock failed
+java.io.IOException: Creating directories for /Users/kshi3430/.config/jgit failed
+	at org.eclipse.jgit.util.FileUtils.mkdirs(FileUtils.java:421)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFile(LockFile.java:172)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFileWithRetry(LockFile.java:165)
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:146)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:201)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:761)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$4(FS.java:433)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-09-15 14:38:52,611 [JGit-FileStoreAttributeWriter-1] ERROR org.eclipse.jgit.util.FS - Cannot save config file 'FileBasedConfig[/Users/kshi3430/.config/jgit/config]'
+java.io.IOException: Creating directories for /Users/kshi3430/.config/jgit failed
+	at org.eclipse.jgit.util.FileUtils.mkdirs(FileUtils.java:421)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFile(LockFile.java:172)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFileWithRetry(LockFile.java:165)
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:146)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:201)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:761)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$4(FS.java:433)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-09-17 13:43:32,056 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-09-17 13:43:37,069 [JGit-FileStoreAttributeWriter-1] ERROR o.e.j.i.storage.file.LockFile - Creating lock file /Users/kshi3430/.config/jgit/config.lock failed
+java.io.IOException: Creating directories for /Users/kshi3430/.config/jgit failed
+	at org.eclipse.jgit.util.FileUtils.mkdirs(FileUtils.java:421)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFile(LockFile.java:172)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFileWithRetry(LockFile.java:165)
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:146)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:201)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:761)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$4(FS.java:433)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-09-17 13:43:37,073 [JGit-FileStoreAttributeWriter-1] ERROR org.eclipse.jgit.util.FS - Cannot save config file 'FileBasedConfig[/Users/kshi3430/.config/jgit/config]'
+java.io.IOException: Creating directories for /Users/kshi3430/.config/jgit failed
+	at org.eclipse.jgit.util.FileUtils.mkdirs(FileUtils.java:421)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFile(LockFile.java:172)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFileWithRetry(LockFile.java:165)
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:146)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:201)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:761)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$4(FS.java:433)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
