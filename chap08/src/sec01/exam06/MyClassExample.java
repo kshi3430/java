@@ -16,6 +16,6 @@ public class MyClassExample {
 		myClass3.methodA();
 		System.out.println("4)----------------");
 		MyClass myClass4 = new MyClass();
-		myClass4.methodB(new Television());
+	myClass4.methodB(new Television());
 }
 }
