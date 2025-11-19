@@ -25,7 +25,6 @@ public class BankAccount {
 	public static int getCount() {
 		return count;
 		
-		
 	}
 	public String getName() {
 		return name;
